@@ -1,0 +1,13 @@
+name = "shopify-webhook"
+main = "shopify_webhook.js"
+compatibility_date = "2025-04-17"
+account_id = "your cloudflare account id"
+workers_dev = true
+
+[vars]
+SHOPIFY_SECRET = ""
+SUPABASE_URL = "https://abcxyz.supabase.co"
+SUPABASE_SERVICE_ROLE_KEY = ""
+
+[triggers]
+crons = []
